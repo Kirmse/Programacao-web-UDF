@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Isaque Kirmse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Isaque Kirmse</h1>
+        <button onclick="toggleSobre()">Mais sobre mim</button>
+    </header>
+
+    <!-- Sobre mim -->
+    <section id="sobre" class="sobre hidden">
+        <h2>Sobre mim</h2>
+        <p>
+            Busco uma carreira como programador, unindo minhas habilidades na área para
+            aplicar soluções eficientes.
+            Sempre aberto a novos desafios, sou comprometido com trabalho em equipe, dedicação e aprendizado contínuo,
+            estando pronto para contribuir de forma eficaz.
+        </p>
+    </section>
+
+    <!-- Formação -->
+    <section>
+        <h2>Formação</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/UDF_Centro_Universit%C3%A1rio_logo.png"
+            alt="Logo UDF" class="logo-udf">
+        <div class="card">
+            <strong>Ensino Médio</strong>
+            <span>Concluido em 2022</span>
+        </div>
+        <div class="card">
+            <strong>UDF - Centro Universitário</strong>
+            <span>Ciência da computação - início 00/0000  Término 00/0000</span>
+        </div>
+    </section>
+
+    <!-- Cursos -->
+    <section>
+        <h2>Cursos</h2>
+        <div class="card"><strong>COMPUTAÇÃO GRÁFICA</strong>Escola SAGA - "carga horário"</div>
+        <div class="card"><strong>DESENVOLVERDOR PHP</strong> SENAI - "carga horário"</div>
+        <div class="card"><strong>MONTADOR E REPARADOR DE COMPUTADOR</strong> SENAI - "carga horário"</div>
+        <div class="card"><strong>INGLÊS</strong> CILT - "carga horário"</div>
+        <div class="card"><strong>JAPONÊS</strong> CILT - "carga horário"</div>
+    </section>
+
+    <!-- Experiência -->
+    <section class="experiencia">
+        <h2>Experiência</h2>
+        <div class="xp-card">
+            <img src="https://media.licdn.com/dms/image/v2/C560BAQHVqgG2FCjIJQ/company-logo_200_200/company-logo_200_200/0/1630627816999?e=2147483647&v=beta&t=rX0u8QrSvWSfI6XD7y9F9JrPFm4dXqKWKgBa6qMMNkw" alt="Work">
+            <div>
+                <strong>CDL DF</strong>
+                Auxiliar Administrativo - CLT   
+            </div>
+        </div>
+        <div class="xp-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Tech">
+            <div>
+                <strong>Autônomo</strong>
+                Técnico de T.I.
+            </div>
+        </div>
+
+        <div class="logos">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+            <a href="https://br.linkedin.com/in/isaque-kirmse-92a314263"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section>
+        <h2>Contato</h2>
+        <div class="contato">
+            <div class="contato-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+                <a href="mailto:kirmse2005@gmail.com">kirmse2005@gmail.com</a>
+            </div>
+            <div class="contato-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Telefone">
+                <span>(61) 99858-6470 (Principal)</span>
+            </div>
+            <div class="contato-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Telefone">
+                <span>(61) 98151-4954</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 - Isaque Kirmse. Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        function toggleSobre() {
+            const sobre = document.getElementById('sobre');
+            sobre.classList.toggle('hidden');
+        }
+    </script>
+
+</body>
+
+</html>
